@@ -1,0 +1,183 @@
+/* FAANG/JAKE'S RESUME TEMPLATE - EXTREMELY COMPACT */
+:root {
+    --ats-body-font: "Calibri", "Arial", "Helvetica", sans-serif;
+    --ats-text-color: #000000;
+}
+
+.ats-paper {
+    font-family: var(--ats-body-font);
+    color: var(--ats-text-color);
+    background: #ffffff;
+    width: 210mm;
+    height: 297mm;
+    margin: 0 auto;
+    padding: 14px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 11pt;
+    line-height: 1.15;
+    overflow: hidden;
+}
+
+/* Auto-Fit Classes: Max 6 levels, lowest font 9pt */
+.ats-paper.scale-1 { font-size: 10.5pt; padding: 0.35in; }
+.ats-paper.scale-1 .ats-name { font-size: 22pt; }
+.ats-paper.scale-1 .ats-role { font-size: 12pt; }
+
+.ats-paper.scale-2 { font-size: 10pt; padding: 0.30in; }
+.ats-paper.scale-2 .ats-name { font-size: 20pt; }
+.ats-paper.scale-2 .ats-role { font-size: 11.5pt; }
+
+.ats-paper.scale-3 { font-size: 9.5pt; padding: 0.25in; line-height: 1.1; }
+.ats-paper.scale-3 .ats-name { font-size: 18pt; }
+.ats-paper.scale-3 .ats-role { font-size: 11pt; }
+
+.ats-paper.scale-4 { font-size: 9.5pt; padding: 0.20in; line-height: 1.05; }
+.ats-paper.scale-4 .ats-name { font-size: 16pt; }
+.ats-paper.scale-4 .ats-role { font-size: 10.5pt; }
+.ats-paper.scale-4 .ats-section { margin-bottom: 4px; }
+.ats-paper.scale-4 .ats-section-heading { margin-bottom: 4px; padding-bottom: 0px; }
+.ats-paper.scale-4 .ats-item { margin-bottom: 4px; }
+
+.ats-paper.scale-5 { font-size: 9.5pt; padding: 0.15in; line-height: 1.0; }
+.ats-paper.scale-5 .ats-name { font-size: 15pt; }
+.ats-paper.scale-5 .ats-role { font-size: 10pt; }
+.ats-paper.scale-5 .ats-section { margin-bottom: 3px; }
+.ats-paper.scale-5 .ats-section-heading { margin-bottom: 3px; padding-bottom: 0px; }
+.ats-paper.scale-5 .ats-item { margin-bottom: 3px; }
+
+.ats-paper.scale-6 { font-size: 9.5pt; padding: 0.12in; line-height: 0.95; }
+.ats-paper.scale-6 .ats-name { font-size: 14pt; margin-bottom: 1px; }
+.ats-paper.scale-6 .ats-role { font-size: 9.5pt; margin-bottom: 1px; }
+.ats-paper.scale-6 .ats-section { margin-bottom: 2px; }
+.ats-paper.scale-6 .ats-section-heading { margin-bottom: 2px; padding-bottom: 0px; }
+.ats-paper.scale-6 .ats-item { margin-bottom: 2px; }
+
+/* Header */
+.ats-header {
+    text-align: center;
+    margin-bottom: 4px;
+    margin-top: 12px;
+}
+.ats-name {
+    font-size: 22pt;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+.ats-role {
+    font-size: 11pt;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 1px;
+}
+.ats-contact-line {
+    font-size: 9.5pt;
+    color: #444444;
+    margin-bottom: 1px;
+}
+.ats-contact-line a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Sections */
+.ats-section {
+    margin-bottom: 4px;
+}
+.ats-section-heading {
+    font-size: 11pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #444444;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    padding-bottom: 0px;
+}
+
+/* General Layout */
+.ats-text {
+    font-size: 1em;
+}
+.ats-summary {
+    text-align: left;
+    line-height: 1.35;
+    word-spacing: normal;
+    letter-spacing: normal;
+    margin-bottom: 0;
+}
+
+/* Tables for left/right alignment */
+.ats-layout-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.ats-layout-table td {
+    padding: 0;
+    vertical-align: top;
+}
+.ats-align-right {
+    text-align: right;
+}
+
+/* Items */
+.ats-item {
+    margin-bottom: 2px;
+}
+.ats-item-title {
+    font-weight: bold;
+}
+.ats-item-subtitle {
+    font-style: normal;
+}
+
+/* Lists */
+.ats-bullets {
+    margin: 1px 0 0 0;
+    padding-left: 14pt;
+}
+.ats-bullets li {
+    margin-bottom: 1px;
+    padding-left: 0;
+}
+
+/* Skills Table */
+.ats-skills-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.ats-skills-table td {
+    padding: 0 0 2px 0;
+    vertical-align: top;
+}
+.ats-skills-category {
+    font-weight: bold;
+    width: 20%;
+}
+.ats-skills-list {
+    width: 80%;
+}
+
+/* Additional Info Table */
+.ats-additional-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.ats-additional-table td {
+    padding: 0 0 2px 0;
+    vertical-align: top;
+}
+.ats-additional-category {
+    font-weight: bold;
+    width: 15%;
+}
+.ats-additional-list {
+    width: 85%;
+}
+.ats-additional-list a {
+    color: #000000;
+    text-decoration: none;
+}
