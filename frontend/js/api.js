@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://ai-resume-builder-4r6c.onrender.com/api';
 
 async function callAI(text, context) {
     showOverlay("Enhancing text...");
